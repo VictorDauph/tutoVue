@@ -12,7 +12,7 @@
   <input type="text" v-model="subTitle"> <br>
 
   <!--récupération des contenus des inputs pour les mettre dans un objet + appel d'une fonction sur l'event input-->
-  <input type="text" v-model="user.name" @input="display()"> <br>
+  <input type="text" v-model="user.name" @input="display(user.name)"> <br>
   <input type="text" v-model="user.age"> <br>
 
   <!--Pour switch de couleur on utilise des classes conditionnelles :class et un event vue @click-->
